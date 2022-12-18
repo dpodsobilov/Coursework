@@ -1,0 +1,142 @@
+header {
+    width: 100%;
+	background: #f1f8ff97;
+	height: 5vh;
+}
+
+.header-ul {
+    display: flex;
+    margin: auto;
+    height: 100%;
+}
+
+.header-ul li {
+    padding: 0 40px;
+    list-style-type: none;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+.header-ul a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background: linear-gradient(to bottom, #b1d8ff, #f6fbff);
+    background-repeat: repeat;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: #333333;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3.5rem;
+    margin: 0px;
+}
+
+h2 {
+    color: #333333;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    margin: 0px;
+}
+
+.rectangle {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;    
+}
+
+.text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: -20px;
+    margin-top: -20px;
+}
+
+.input {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.input-interval {
+    width: 15%;
+    font-size: 3rem;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.input-func {
+    font-size: 3rem;
+    width: 10%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.input-accuracy {
+    font-size: 3rem;
+    width: 90%;
+    border-radius: 5px;
+}
+
+input:invalid {
+    animation: shake .3s;
+    background-color: #ff8383;
+}
+
+@keyframes shake {
+    25% { transform: translateX(4px); }
+    50% { transform: translateX(4px); }
+    75% { transform: translateX(4px); }
+}
+
+.text, .input p {
+    font-size: 3rem;
+    font-family: sans-serif;
+}
+
+.description p {
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+.div-button {
+    margin: auto;
+    width: 50%;
+}
+
+.button {
+    text-align: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+    margin: auto;
+    width: 100%;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 5px;
+}
